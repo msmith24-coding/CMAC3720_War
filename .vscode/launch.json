@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "CMAC3720_War (Debug)",
+			"request": "launch",
+			"preLaunchTask": "CMAC3720_War Mac Debug Build",
+			"program": "/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/Binaries/Mac/UE4-Mac-Debug.app/Contents/MacOS/UE4-Mac-Debug",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.27",
+			"type": "lldb"
+		},
+		{
+			"name": "CMAC3720_War (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "CMAC3720_War Mac DebugGame Build",
+			"program": "/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/Binaries/Mac/UE4-Mac-DebugGame.app/Contents/MacOS/UE4-Mac-DebugGame",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.27",
+			"type": "lldb"
+		},
+		{
+			"name": "CMAC3720_War (Development)",
+			"request": "launch",
+			"preLaunchTask": "CMAC3720_War Mac Development Build",
+			"program": "/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/Binaries/Mac/UE4.app/Contents/MacOS/UE4",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.27",
+			"type": "lldb"
+		},
+		{
+			"name": "CMAC3720_War (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "CMAC3720_War Mac Shipping Build",
+			"program": "/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/Binaries/Mac/UE4-Mac-Shipping.app/Contents/MacOS/UE4-Mac-Shipping",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.27",
+			"type": "lldb"
+		},
+		{
+			"name": "CMAC3720_War (Test)",
+			"request": "launch",
+			"preLaunchTask": "CMAC3720_War Mac Test Build",
+			"program": "/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/Binaries/Mac/UE4-Mac-Test.app/Contents/MacOS/UE4-Mac-Test",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.27",
+			"type": "lldb"
+		},
+		{
+			"name": "CMAC3720_WarEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "CMAC3720_WarEditor Mac Debug Build",
+			"program": "/Users/Shared/Epic Games/UE_4.27/Engine/Binaries/Mac/UE4Editor-Mac-Debug.app/Contents/MacOS/UE4Editor-Mac-Debug",
+			"args": [
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.27",
+			"type": "lldb"
+		},
+		{
+			"name": "CMAC3720_WarEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "CMAC3720_WarEditor Mac DebugGame Build",
+			"program": "/Users/Shared/Epic Games/UE_4.27/Engine/Binaries/Mac/UE4Editor-Mac-DebugGame.app/Contents/MacOS/UE4Editor-Mac-DebugGame",
+			"args": [
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.27",
+			"type": "lldb"
+		},
+		{
+			"name": "CMAC3720_WarEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "CMAC3720_WarEditor Mac Development Build",
+			"program": "/Users/Shared/Epic Games/UE_4.27/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.27",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/Users/Shared/Epic Games/UE_4.27"
+		}
+	]
+}

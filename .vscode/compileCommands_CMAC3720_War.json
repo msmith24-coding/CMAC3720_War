@@ -1,0 +1,27 @@
+[
+	{
+		"file": "/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/Source/CMAC3720_War/CMAC3720_War.Build.cs",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @\"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/.vscode/compileCommands_CMAC3720_War/CMAC3720_War.191.rsp\"",
+		"directory": "/Users/Shared/Epic Games/UE_4.27/Engine/Source"
+	},
+	{
+		"file": "/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/Source/CMAC3720_War/CMAC3720_War.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @\"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/.vscode/compileCommands_CMAC3720_War/CMAC3720_War.191.rsp\"",
+		"directory": "/Users/Shared/Epic Games/UE_4.27/Engine/Source"
+	},
+	{
+		"file": "/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/Source/CMAC3720_War/CMAC3720_War.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @\"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/.vscode/compileCommands_CMAC3720_War/CMAC3720_War.191.rsp\"",
+		"directory": "/Users/Shared/Epic Games/UE_4.27/Engine/Source"
+	},
+	{
+		"file": "/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/Source/CMAC3720_War/Private/MainMenu.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @\"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/.vscode/compileCommands_CMAC3720_War/CMAC3720_War.191.rsp\"",
+		"directory": "/Users/Shared/Epic Games/UE_4.27/Engine/Source"
+	},
+	{
+		"file": "/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/Source/CMAC3720_War/Public/MainMenu.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @\"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/.vscode/compileCommands_CMAC3720_War/CMAC3720_War.191.rsp\"",
+		"directory": "/Users/Shared/Epic Games/UE_4.27/Engine/Source"
+	}
+]

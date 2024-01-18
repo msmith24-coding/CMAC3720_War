@@ -1,0 +1,720 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "CMAC3720_War Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"Mac",
+				"Debug",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"Mac",
+				"Debug",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CMAC3720_War Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"Mac",
+				"Debug",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"Mac",
+				"DebugGame",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"Mac",
+				"DebugGame",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CMAC3720_War Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"Mac",
+				"DebugGame",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"Mac",
+				"Development",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"Mac",
+				"Development",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CMAC3720_War Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"Mac",
+				"Development",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"Mac",
+				"Shipping",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"Mac",
+				"Shipping",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CMAC3720_War Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"Mac",
+				"Shipping",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"Mac",
+				"Test",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"Mac",
+				"Test",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CMAC3720_War Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"Mac",
+				"Test",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"IOS",
+				"Debug",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"IOS",
+				"Debug",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CMAC3720_War IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"IOS",
+				"Debug",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"IOS",
+				"DebugGame",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"IOS",
+				"DebugGame",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CMAC3720_War IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"IOS",
+				"DebugGame",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"IOS",
+				"Development",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"IOS",
+				"Development",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CMAC3720_War IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"IOS",
+				"Development",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"IOS",
+				"Shipping",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"IOS",
+				"Shipping",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CMAC3720_War IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"IOS",
+				"Shipping",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"IOS",
+				"Test",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"IOS",
+				"Test",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CMAC3720_War IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_War IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_War",
+				"IOS",
+				"Test",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_WarEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_WarEditor",
+				"Mac",
+				"Debug",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_WarEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_WarEditor",
+				"Mac",
+				"Debug",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CMAC3720_WarEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_WarEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_WarEditor",
+				"Mac",
+				"Debug",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_WarEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_WarEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_WarEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_WarEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CMAC3720_WarEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_WarEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_WarEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_WarEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_WarEditor",
+				"Mac",
+				"Development",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_WarEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_WarEditor",
+				"Mac",
+				"Development",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CMAC3720_WarEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		},
+		{
+			"label": "CMAC3720_WarEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"CMAC3720_WarEditor",
+				"Mac",
+				"Development",
+				"/Users/michaelsmith/Desktop/School/Spring 2024/3D Game Programming/Projects/CMAC3720_War/CMAC3720_War.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.27"
+			}
+		}
+	]
+}
